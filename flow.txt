@@ -1,0 +1,19 @@
+What do we want?
+    An API that subscribes a customer to a concurrent service subscription
+
+The subscription happens after a user as signed up (The user already exists in the DB)
+
+
+Domain API:
+
+Create Customer
+
+
+
+then:
+
+Stripe API sequence:
+
+Create Payment Method (credit card details)
+Create Customer (include PaymentMethodId)
+Create Subscription (include CustomerId and PaymentMethodId)
