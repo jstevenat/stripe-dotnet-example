@@ -8,8 +8,6 @@ Domain API:
 
 Create Customer
 
-
-
 then:
 
 Stripe API sequence:
